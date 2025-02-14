@@ -327,6 +327,50 @@
     0% { transform: translateY(0); }
     100% { transform: translateY(-5px); }
 }
+@media (max-width: 600px) {
+    #envelope {
+        width: 200px;
+        height: 130px;
+        top: 100px;
+    }
+
+    .front.flap {
+        border-left: 100px solid transparent;
+        border-right: 100px solid transparent;
+        border-top: 70px solid var(--color-flap);
+    }
+
+    .front.pocket {
+        border-left: 100px solid var(--color-env);
+        border-right: 100px solid var(--color-env);
+        border-bottom: 70px solid var(--color-env2);
+    }
+
+    .letter {
+        width: 85%;
+        font-size: 14px;
+    }
+
+    .message p {
+        font-size: 1.5em;
+    }
+
+    .reset button {
+        font-size: 14px;
+        padding: 8px 20px;
+    }
+
+    .spotify-wrapper {
+        width: 200px;
+        height: 120px;
+        top: 10px;
+        right: 10px;
+    }
+
+    .envlope-wrapper {
+        margin-top: 30px;
+    }
+}
 
     </style>
 </head>
